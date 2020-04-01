@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2020-04-01T13:41:05.427Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="qS-cYqiOufNmYUn5kime" version="12.9.6" type="github" pages="4">
+<mxfile host="app.diagrams.net" modified="2020-04-01T13:45:08.768Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/80.0.3987.149 Safari/537.36" etag="BHjYx3T5HAh3090EafC0" version="12.9.6" type="github" pages="4">
   <diagram id="Ai0HZZat3uVSUmlKoc1S" name="les_1_task_1">
-    <mxGraphModel dx="898" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1056" dy="552" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -25,23 +25,23 @@
         <mxCell id="HmodYSN6ZYd4rH5pP58v-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmodYSN6ZYd4rH5pP58v-9" target="HmodYSN6ZYd4rH5pP58v-11" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmodYSN6ZYd4rH5pP58v-9" value="Расчет смещения относительно 1-ой буквы - &#39;a&#39;:&lt;br&gt;n = position &#39;a&#39; + n -1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="HmodYSN6ZYd4rH5pP58v-9" value="Расчет смещения относительно 1-ой буквы - &#39;a&#39;:&lt;br&gt;n = ord(&#39;a&#39;) + n - 1" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="315" y="240" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="HmodYSN6ZYd4rH5pP58v-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmodYSN6ZYd4rH5pP58v-11" target="HmodYSN6ZYd4rH5pP58v-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="HmodYSN6ZYd4rH5pP58v-11" value="Получение буквы по коду:" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="315" y="320" width="120" height="60" as="geometry" />
+        <mxCell id="HmodYSN6ZYd4rH5pP58v-11" value="Получение буквы&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="315" y="320" width="115" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HmodYSN6ZYd4rH5pP58v-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="HmodYSN6ZYd4rH5pP58v-12" target="HmodYSN6ZYd4rH5pP58v-14" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="HmodYSN6ZYd4rH5pP58v-12" value="Вывод буквы" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="315" y="410" width="125" height="30" as="geometry" />
+          <mxGeometry x="315" y="380" width="125" height="30" as="geometry" />
         </mxCell>
         <mxCell id="HmodYSN6ZYd4rH5pP58v-14" value="Конец" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="315" y="480" width="125" height="40" as="geometry" />
+          <mxGeometry x="312.5" y="440" width="125" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
