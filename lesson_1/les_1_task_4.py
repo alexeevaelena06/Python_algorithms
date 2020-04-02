@@ -8,7 +8,7 @@ c = int(input("c = "))
 
 if b < a < c or c < a < b:
     print('Среднее:', a)
-elif a < b < c or c < b < a:
+elif a <= b < c or c < b <= a:
     print('Среднее:', b)
 else:
     print('Среднее:', c)
