@@ -1,3 +1,5 @@
+# Alekseeva Elena
+
 # Тесты выполнены на 64-разрядной Win 10
 # Python 3.8.2  [MSC v.1916 64 bit (AMD64)] on win32
 import sys
