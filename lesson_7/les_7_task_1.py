@@ -18,9 +18,9 @@ def bubble_sort(lst):
     while n < len(lst):
         count = 0
 
-        for i in range(len(lst) - n):
+        for i in range(len(lst) - 1 - (n - 1)):
 
-            if lst[i] > lst[i + 1]:
+            if lst[i] < lst[i + 1]:
                 lst[i], lst[i + 1] = lst[i + 1], lst[i]
                 count += 1
 
