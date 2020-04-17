@@ -5,24 +5,9 @@
 Примечание. Решите задачу при помощи построения графа.
 """
 
+from functools import reduce
 
-# Recursive Python program
-# to count total number of
-# handshakes when a person
-# can shake hand with only one.
-
-# function to find all
-# possible handshakes
-def handshake(n):
-    # when n becomes 0 that means
-    # all the persons have done
-    # handshake with other
-    if (n == 0):
-        return 0
-    else:
-        return (n - 1) + handshake(n - 1)
-
-# Driver Code
-n = 9
-print(handshake(n))
-
+n = int(input('Сколько встретилось друзей: '))
+graph = [[int(i > j) for i in range(n)] for j in range(n)]
+count = reduce(lambda acc, x: acc + sum(x), graph, 0)
+print(f'Количество рукопожатий {count}')
